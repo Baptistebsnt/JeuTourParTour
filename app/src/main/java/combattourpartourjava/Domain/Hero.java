@@ -2,7 +2,7 @@ package combattourpartourjava.Domain;
 
 public class Hero implements IPersonnage {
     private String Nom;
-    private int PvMax;
+    private final int PvMax;
     private int PvActuels;
     private int Attaque;
     private int Cooldown;
